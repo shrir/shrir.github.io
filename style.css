@@ -22,14 +22,22 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/InterVariable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 body {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 88px 28px 40px;
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
@@ -168,5 +176,22 @@ a:focus-visible {
   html {
     scroll-behavior: auto;
   }
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.link-arrow {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 0.85em;
+  transition: color 150ms ease;
+}
+
+a:hover .link-arrow {
+  color: var(--purple);
 }
 

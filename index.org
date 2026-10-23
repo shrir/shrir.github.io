@@ -6,14 +6,23 @@
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
 #+HTML_HEAD: <link rel="stylesheet" href="style.css">
 
-* Shrirang Bhate
 #+begin_export html
-<p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24) · MUNICH, GERMANY</p>
+<p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
 #+end_export
 
 A little about me.
 
-[[https://github.com/shrir][GitHub]] · [[http://www.linkedin.com/in/shrirang-bhate][LinkedIn]] · [[mailto:name@mydomain.com][Email]]
+Based in Munich, Germany.
+
+#+begin_export html
+<p class="social-links">
+  <a href="https://github.com/shrir">GitHub <span class="link-arrow">↗</span></a>
+  ·
+  <a href="http://www.linkedin.com/in/shrirang-bhate">LinkedIn <span class="link-arrow">↗</span></a>
+  ·
+  <a href="mailto:name@mydomain.com">Email <span class="link-arrow">↗</span></a>
+</p>
+#+end_export
 
 * Experience
 
@@ -37,19 +46,6 @@ Building stuff
 #+end_export
 
 Studied computer science, and other stuff.
-
-* Selected projects
-
-** [[https://github.com/][Open-source projects]]
-
-A collection of experiments, tools, and projects built to solve
-interesting problems.
-
-* Contact
-
-I'm always happy to hear from people building interesting things.
-
-[[mailto:name@mydomain.com][name@mydomain.com]]
 
 #+begin_export html
 <footer class="site-footer">
