@@ -13,7 +13,7 @@
 
 A little about me.
 
-[[https://github.com/shrir][GitHub]] · [[Fhttp://www.linkedin.com/in/shrirang-bhate][LinkedIn]] · [[mailto:name@mydomain.com][Email]]
+[[https://github.com/shrir][GitHub]] · [[http://www.linkedin.com/in/shrirang-bhate][LinkedIn]] · [[mailto:name@mydomain.com][Email]]
 
 * Experience
 
