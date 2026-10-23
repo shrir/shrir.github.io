@@ -131,14 +131,63 @@ a:focus-visible {
   margin: 0 0 8px;
 }
 
+/* Experience timeline */
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+}
+
+/* The vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: #d1d5db;
+}
+
+/* Each job */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+/* The bullet */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 0.45rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #2563eb;
+  border: 3px solid white;
+  box-sizing: content-box;
+  z-index: 1;
+}
+
+/* Job title */
+.timeline-item h3 {
+  margin: 0 0 0.5rem;
+}
+
+/* Company and dates */
 .timeline-meta {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 4px 16px;
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-size: 0.85rem;
+  gap: 0.25rem 1rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
 }
 
 .timeline-meta span:last-child {
