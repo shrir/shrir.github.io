@@ -40,13 +40,6 @@ Building stuff
 
 Building stuff
 
-** Computer Science
-#+begin_export html
-<p class="timeline-meta"><span>University of Mumbai</span><span>2003 — 2005</span></p>
-#+end_export
-
-Studied computer science, and other stuff.
-
 #+begin_export html
 <footer class="site-footer">
   Built with Emacs Org mode
