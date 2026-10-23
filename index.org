@@ -1,0 +1,59 @@
+#+TITLE: Shrirang Bhate
+#+AUTHOR: Shrirang Bhate
+#+OPTIONS: toc:nil num:nil html-postamble:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
+#+HTML_HEAD: <meta name="theme-color" content="#282c34">
+#+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
+
+* Shrirang Bhate
+#+begin_export html
+<p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24) · MUNICH, GERMANY</p>
+#+end_export
+
+A little about me.
+
+[[https://github.com/shrir][GitHub]] · [[Fhttp://www.linkedin.com/in/shrirang-bhate][LinkedIn]] · [[mailto:name@mydomain.com][Email]]
+
+* Experience
+
+** Engineering Manager
+#+begin_export html
+<p class="timeline-meta"><span>Qwello</span><span>May 2025 — Present</span></p>
+#+end_export
+
+Building stuff
+
+** Co-founder and CTO
+#+begin_export html
+<p class="timeline-meta"><span>Chapter</span><span>Jul 2023 — Apr 2025</span></p>
+#+end_export
+
+Building stuff
+
+** Computer Science
+#+begin_export html
+<p class="timeline-meta"><span>University of Mumbai</span><span>2003 — 2005</span></p>
+#+end_export
+
+Studied computer science, and other stuff.
+
+* Selected projects
+
+** [[https://github.com/][Open-source projects]]
+
+A collection of experiments, tools, and projects built to solve
+interesting problems.
+
+* Contact
+
+I'm always happy to hear from people building interesting things.
+
+[[mailto:name@mydomain.com][name@mydomain.com]]
+
+#+begin_export html
+<footer class="site-footer">
+  Built with Emacs Org mode
+</footer>
+#+end_export
+
