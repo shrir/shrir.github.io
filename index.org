@@ -26,7 +26,15 @@ Based in Munich, Germany.
 
 * Experience
 
+#+begin_export html
+<div class="timeline">
+#+end_export
+
 ** Engineering Manager
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
 #+begin_export html
 <p class="timeline-meta"><span>Qwello</span><span>May 2025 — Present</span></p>
 #+end_export
@@ -34,6 +42,10 @@ Based in Munich, Germany.
 Building stuff
 
 ** Co-founder and CTO
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
 #+begin_export html
 <p class="timeline-meta"><span>Chapter</span><span>Jul 2023 — Apr 2025</span></p>
 #+end_export
