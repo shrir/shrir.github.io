@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=2">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=3">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
@@ -16,19 +16,15 @@ Based in Munich, Germany.
 
 #+begin_export html
 <p class="social-links">
-  <a href="https://github.com/shrir">GitHub <span class="link-arrow">↗</span></a>
+  <a href="https://github.com/shrir">GitHub</a>
   ·
-  <a href="http://www.linkedin.com/in/shrirang-bhate">LinkedIn <span class="link-arrow">↗</span></a>
+  <a href="http://www.linkedin.com/in/shrirang-bhate">LinkedIn</a>
   ·
-  <a href="mailto:name@mydomain.com">Email <span class="link-arrow">↗</span></a>
+  <a href="mailto:name@mydomain.com">Email</a>
 </p>
 #+end_export
 
 * Experience
-
-#+begin_export html
-<div class="timeline">
-#+end_export
 
 ** Engineering Manager
 :PROPERTIES:
@@ -54,7 +50,11 @@ Building stuff
 
 #+begin_export html
 <footer class="site-footer">
-  Built with Emacs Org mode
+  <span>org-mode</span>
+  <span id="last-modified"></span>
 </footer>
+<script>
+  document.getElementById('last-modified').textContent = document.lastModified;
+</script>
 #+end_export
 

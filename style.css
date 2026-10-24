@@ -30,6 +30,14 @@ html {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 body {
   max-width: var(--content-width);
   margin: 0 auto;
@@ -59,10 +67,27 @@ h1 {
   line-height: 1.2;
 }
 
+h1::after {
+  content: "▊";
+  animation: blink 1s step-end infinite;
+  color: var(--green);
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 h2 {
   margin: 64px 0 24px;
   font-size: 1.15rem;
   letter-spacing: -0.02em;
+}
+
+h2::before {
+  content: ";; ";
+  color: var(--muted);
+  font-weight: 400;
 }
 
 h3 {
@@ -78,11 +103,26 @@ a {
   color: var(--purple);
   text-decoration: none;
   text-underline-offset: 4px;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+a::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  color: var(--green);
+  transition: opacity 150ms ease;
 }
 
 a:hover {
   color: #e0a8f0;
   text-decoration: underline;
+}
+
+a:hover::before {
+  opacity: 1;
 }
 
 a:focus-visible {
@@ -97,6 +137,7 @@ a:focus-visible {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.12em;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
 /* Experience section heading */
@@ -104,29 +145,24 @@ a:focus-visible {
   margin-bottom: 30px;
 }
 
-/* Experience timeline items */
+/* Experience timeline items - minimal style */
 .outline-3.timeline-item {
   position: relative;
-  padding: 0 0 36px 33px;
-  border-left: 2px solid var(--border);
+  padding: 0 0 36px 28px;
 }
 
 .outline-3.timeline-item::before {
-  content: "";
+  content: "•";
   position: absolute;
-  top: 9px;
-  left: -6px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: var(--green);
-  box-shadow: 0 0 0 4px var(--bg);
-  z-index: 1;
+  top: 2px;
+  left: 0;
+  color: var(--green);
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 .outline-3.timeline-item:last-child {
   padding-bottom: 0;
-  border-left-color: transparent;
 }
 
 .outline-3.timeline-item h3 {
@@ -145,8 +181,9 @@ a:focus-visible {
   flex-direction: column;
   gap: 0.25rem;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin: 0 0 0.75rem;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
 .timeline-meta span:first-child {
@@ -165,10 +202,14 @@ a:focus-visible {
 
 .site-footer {
   margin-top: 72px;
-  padding-top: 20px;
+  padding: 8px 16px;
   border-top: 1px solid var(--border);
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  display: flex;
+  justify-content: space-between;
+  background: var(--surface);
 }
 
 ::selection {
@@ -202,16 +243,5 @@ a:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-}
-
-.link-arrow {
-  display: inline-block;
-  color: var(--muted);
-  font-size: 0.85em;
-  transition: color 150ms ease;
-}
-
-a:hover .link-arrow {
-  color: var(--purple);
 }
 
