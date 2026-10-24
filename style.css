@@ -120,6 +120,7 @@ a:focus-visible {
   border-radius: 50%;
   background: var(--green);
   box-shadow: 0 0 0 4px var(--bg);
+  z-index: 1;
 }
 
 #outline-container-experience .outline-3:last-child {
@@ -131,22 +132,15 @@ a:focus-visible {
   margin: 0 0 8px;
 }
 
-/* Experience timeline */
+/* Experience timeline - remove duplicate bullet styling from .timeline-item */
 .timeline {
   position: relative;
   margin: 2rem 0;
-  padding-left: 2rem;
 }
 
-/* The vertical line */
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 7px;
-  top: 8px;
-  bottom: 8px;
-  width: 2px;
-  background: #d1d5db;
+/* Remove the .timeline-item::before since .outline-3::before handles bullets */
+.timeline-item::before {
+  display: none;
 }
 
 /* Each job */
@@ -159,14 +153,13 @@ a:focus-visible {
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -2rem;
-  top: 0.45rem;
-  width: 12px;
-  height: 12px;
+  left: -28px;
+  top: 6px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
-  background: #2563eb;
-  border: 3px solid white;
-  box-sizing: content-box;
+  background: var(--green);
+  box-shadow: 0 0 0 4px var(--bg);
   z-index: 1;
 }
 
