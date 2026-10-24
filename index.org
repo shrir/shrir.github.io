@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=15">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=16">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · RECOVERING FOUNDER (TECHSTARS AUTUMN '24)</p>
@@ -12,7 +12,9 @@
 
 Engineer by trade. Currently responsible for other people's pull requests, with Claude quietly making the whole thing a bit weird.
 
-Based in Munich, Germany.
+#+begin_export html
+<p class="location">Based in Munich, Germany.</p>
+#+end_export
 
 #+begin_export html
 <p class="social-links">
