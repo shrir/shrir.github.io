@@ -174,22 +174,20 @@ a:focus-visible {
   text-underline-offset: 4px;
 }
 
-.timeline-meta a .link-arrow {
-  opacity: 1 !important;
-  color: var(--muted) !important;
-  font-size: 1em;
-  margin-left: 4px;
-  transition: opacity 150ms ease;
-  display: inline !important;
-}
-
 .timeline-meta a:hover {
   color: #e0a8f0 !important;
   text-decoration: underline;
 }
 
-.timeline-meta a:hover .link-arrow {
+.timeline-meta .link-arrow {
   opacity: 1 !important;
+  color: var(--muted) !important;
+  font-size: 1em;
+  margin-left: 4px;
+  display: inline !important;
+}
+
+.timeline-meta a:hover + .link-arrow {
   color: var(--purple) !important;
 }
 
