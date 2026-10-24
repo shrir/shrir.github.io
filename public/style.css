@@ -104,22 +104,23 @@ a:focus-visible {
 }
 
 #outline-container-experience .outline-3 {
-  position: relative;
-  padding: 0 0 36px 33px;
-  border-left: 1px solid var(--border);
+  position: relative !important;
+  padding: 0 0 36px 33px !important;
+  border-left: 2px solid var(--border) !important;
 }
 
 #outline-container-experience .outline-3::before {
-  content: "";
-  position: absolute;
-  top: 9px;
-  left: -5px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--green);
-  box-shadow: 0 0 0 4px var(--bg);
-  z-index: 1;
+  content: "" !important;
+  position: absolute !important;
+  top: 9px !important;
+  left: -6px !important;
+  width: 11px !important;
+  height: 11px !important;
+  border-radius: 50% !important;
+  background: var(--green) !important;
+  box-shadow: 0 0 0 4px var(--bg) !important;
+  z-index: 1 !important;
+  display: block !important;
 }
 
 #outline-container-experience .outline-3:last-child {
