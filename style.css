@@ -132,8 +132,8 @@ a:focus-visible {
 }
 
 .location-dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: var(--green);
   display: inline-block;
@@ -156,7 +156,7 @@ a:focus-visible {
   position: absolute;
   top: 0;
   left: -18px;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 1;
   color: var(--green);
 }
