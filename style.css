@@ -172,6 +172,8 @@ a:focus-visible {
   color: var(--purple) !important;
   text-decoration: none;
   text-underline-offset: 4px;
+  display: inline !important;
+  white-space: nowrap;
 }
 
 .timeline-meta a:hover {
@@ -185,6 +187,7 @@ a:focus-visible {
   font-size: 1em;
   margin-left: 4px;
   display: inline !important;
+  white-space: nowrap;
 }
 
 .timeline-meta a:hover + .link-arrow {
