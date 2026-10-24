@@ -155,10 +155,9 @@ a:focus-visible {
   content: "•";
   position: absolute;
   top: 2px;
-  left: 0;
+  left: -18px;
+  font-size: 6px;
   color: var(--green);
-  font-size: 1.2rem;
-  line-height: 1;
 }
 
 .outline-3.timeline-item:last-child {
