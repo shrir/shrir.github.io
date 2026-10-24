@@ -169,12 +169,30 @@ a:focus-visible {
 }
 
 .timeline-meta a {
-  color: var(--text);
-  font-weight: 500;
+  color: var(--purple);
+  text-decoration: none;
+  text-underline-offset: 4px;
+  position: relative;
+  padding-right: 1.2em;
+}
+
+.timeline-meta a::after {
+  content: "↗";
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  color: var(--muted);
+  font-size: 0.85em;
+  transition: opacity 150ms ease;
 }
 
 .timeline-meta a:hover {
-  color: var(--purple);
+  color: #e0a8f0;
+  text-decoration: underline;
+}
+
+.timeline-meta a:hover::after {
+  opacity: 1;
 }
 
 .timeline-item:last-child {
