@@ -141,9 +141,9 @@ a:focus-visible {
 
 /* timeline-meta styling */
 .timeline-meta {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
   color: var(--muted);
   font-size: 0.85rem;
   margin: 0 0 0.75rem;
