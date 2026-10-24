@@ -25,9 +25,6 @@ Based in Munich, Germany.
 #+end_export
 
 * Experience
-:PROPERTIES:
-:CUSTOM_ID: outline-container-experience
-:END:
 
 #+begin_export html
 <div class="timeline">
