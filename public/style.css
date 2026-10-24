@@ -88,17 +88,6 @@ a {
   color: var(--purple);
   text-decoration: none;
   text-underline-offset: 4px;
-  position: relative;
-  padding-left: 1.2em;
-}
-
-a::before {
-  content: ">";
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  color: var(--green);
-  transition: opacity 150ms ease;
 }
 
 a:hover {
@@ -106,8 +95,16 @@ a:hover {
   text-decoration: underline;
 }
 
-a:hover::before {
-  opacity: 1;
+a:hover .link-arrow {
+  color: var(--purple);
+}
+
+.link-arrow {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 0.85em;
+  margin-left: 2px;
+  transition: color 150ms ease;
 }
 
 a:focus-visible {

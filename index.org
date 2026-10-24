@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=4">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=5">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
@@ -16,11 +16,11 @@ Based in Munich, Germany.
 
 #+begin_export html
 <p class="social-links">
-  <a href="https://github.com/shrir">GitHub</a>
+  <a href="https://github.com/shrir" target="_blank" rel="noopener noreferrer">GitHub <span class="link-arrow">↗</span></a>
   ·
-  <a href="http://www.linkedin.com/in/shrirang-bhate">LinkedIn</a>
+  <a href="http://www.linkedin.com/in/shrirang-bhate" target="_blank" rel="noopener noreferrer">LinkedIn <span class="link-arrow">↗</span></a>
   ·
-  <a href="mailto:name@mydomain.com">Email</a>
+  <a href="mailto:name@mydomain.com">Email <span class="link-arrow">↗</span></a>
 </p>
 #+end_export
 
