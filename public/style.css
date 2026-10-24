@@ -175,10 +175,10 @@ a:focus-visible {
 }
 
 .timeline-meta a .link-arrow {
-  opacity: 0 !important;
+  opacity: 1 !important;
   color: var(--muted) !important;
-  font-size: 0.85em;
-  margin-left: 2px;
+  font-size: 1em;
+  margin-left: 4px;
   transition: opacity 150ms ease;
   display: inline !important;
 }
@@ -190,6 +190,7 @@ a:focus-visible {
 
 .timeline-meta a:hover .link-arrow {
   opacity: 1 !important;
+  color: var(--purple) !important;
 }
 
 .timeline-item:last-child {
