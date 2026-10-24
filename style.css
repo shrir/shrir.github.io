@@ -172,17 +172,13 @@ a:focus-visible {
   color: var(--purple);
   text-decoration: none;
   text-underline-offset: 4px;
-  position: relative;
-  padding-right: 1.2em;
 }
 
-.timeline-meta a::after {
-  content: "↗";
-  position: absolute;
-  right: 0;
+.timeline-meta a .link-arrow {
   opacity: 0;
   color: var(--muted);
   font-size: 0.85em;
+  margin-left: 2px;
   transition: opacity 150ms ease;
 }
 
@@ -191,7 +187,7 @@ a:focus-visible {
   text-decoration: underline;
 }
 
-.timeline-meta a:hover::after {
+.timeline-meta a:hover .link-arrow {
   opacity: 1;
 }
 

@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=7">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=8">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
@@ -32,7 +32,7 @@ Based in Munich, Germany.
 :END:
 
 #+begin_export html
-<p class="timeline-meta"><a href="https://qwello.eu" target="_blank" rel="noopener noreferrer">Qwello</a><span>May 2025 — Present</span></p>
+<p class="timeline-meta"><a href="https://qwello.eu" target="_blank" rel="noopener noreferrer">Qwello<span class="link-arrow">↗</span></a><span>May 2025 — Present</span></p>
 #+end_export
 
 Building stuff
@@ -43,7 +43,7 @@ Building stuff
 :END:
 
 #+begin_export html
-<p class="timeline-meta"><a href="https://chapter.show" target="_blank" rel="noopener noreferrer">Chapter</a><span>Jul 2023 — Apr 2025</span></p>
+<p class="timeline-meta"><a href="https://chapter.show" target="_blank" rel="noopener noreferrer">Chapter<span class="link-arrow">↗</span></a><span>Jul 2023 — Apr 2025</span></p>
 #+end_export
 
 Building stuff
