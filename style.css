@@ -169,26 +169,27 @@ a:focus-visible {
 }
 
 .timeline-meta a {
-  color: var(--purple);
+  color: var(--purple) !important;
   text-decoration: none;
   text-underline-offset: 4px;
 }
 
 .timeline-meta a .link-arrow {
-  opacity: 0;
-  color: var(--muted);
+  opacity: 0 !important;
+  color: var(--muted) !important;
   font-size: 0.85em;
   margin-left: 2px;
   transition: opacity 150ms ease;
+  display: inline !important;
 }
 
 .timeline-meta a:hover {
-  color: #e0a8f0;
+  color: #e0a8f0 !important;
   text-decoration: underline;
 }
 
 .timeline-meta a:hover .link-arrow {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .timeline-item:last-child {
