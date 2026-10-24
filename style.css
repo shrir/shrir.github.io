@@ -126,11 +126,18 @@ a:focus-visible {
   color: var(--muted);
   font-size: 0.85rem;
   margin: 0 0 24px;
-  padding: 4px 12px;
-  background: var(--surface);
-  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.location-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
   display: inline-block;
-  border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
 /* Experience section heading */
