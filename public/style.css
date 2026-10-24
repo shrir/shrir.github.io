@@ -159,21 +159,22 @@ a:focus-visible {
 
 /* timeline-meta styling */
 .timeline-meta {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-wrap: wrap;
   gap: 0.25rem;
   color: var(--muted);
   font-size: 0.8rem;
   margin: 0 0 0.75rem;
   font-family: "JetBrains Mono", "Fira Code", monospace;
+  align-items: center;
 }
 
 .timeline-meta a {
   color: var(--purple) !important;
   text-decoration: none;
   text-underline-offset: 4px;
-  display: inline !important;
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
 }
 
 .timeline-meta a:hover {
@@ -185,12 +186,11 @@ a:focus-visible {
   opacity: 1 !important;
   color: var(--muted) !important;
   font-size: 1em;
-  margin-left: 4px;
+  margin-left: 2px;
   display: inline !important;
-  white-space: nowrap;
 }
 
-.timeline-meta a:hover + .link-arrow {
+.timeline-meta a:hover .link-arrow {
   color: var(--purple) !important;
 }
 
