@@ -132,8 +132,8 @@ a:focus-visible {
 }
 
 .location-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--green);
   display: inline-block;
@@ -154,9 +154,10 @@ a:focus-visible {
 .outline-3.timeline-item::before {
   content: "•";
   position: absolute;
-  top: 2px;
+  top: 0;
   left: -18px;
-  font-size: 6px;
+  font-size: 10px;
+  line-height: 1;
   color: var(--green);
 }
 
