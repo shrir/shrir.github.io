@@ -105,8 +105,7 @@ a:focus-visible {
 
 #outline-container-experience .outline-3 {
   position: relative;
-  margin-left: 5px;
-  padding: 0 0 36px 28px;
+  padding: 0 0 36px 33px;
   border-left: 1px solid var(--border);
 }
 
@@ -132,49 +131,19 @@ a:focus-visible {
   margin: 0 0 8px;
 }
 
-/* Experience timeline - remove duplicate bullet styling from .timeline-item */
+/* Experience timeline container */
 .timeline {
   position: relative;
   margin: 2rem 0;
 }
 
-/* Remove the .timeline-item::before since .outline-3::before handles bullets */
-.timeline-item::before {
-  display: none;
-}
-
-/* Each job */
-.timeline-item {
-  position: relative;
-  margin-bottom: 2.5rem;
-}
-
-/* The bullet */
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -28px;
-  top: 6px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--green);
-  box-shadow: 0 0 0 4px var(--bg);
-  z-index: 1;
-}
-
-/* Job title */
-.timeline-item h3 {
-  margin: 0 0 0.5rem;
-}
-
-/* Company and dates */
+/* timeline-meta styling */
 .timeline-meta {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0.25rem 1rem;
-  color: #6b7280;
+  color: var(--muted);
   font-size: 0.9rem;
   margin: 0.25rem 0 0.75rem;
 }
