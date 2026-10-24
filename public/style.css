@@ -99,36 +99,37 @@ a:focus-visible {
   letter-spacing: 0.12em;
 }
 
-#outline-container-experience > h2 {
+/* Experience section heading */
+#outline-container-experience {
   margin-bottom: 30px;
 }
 
-#outline-container-experience .outline-3 {
-  position: relative !important;
-  padding: 0 0 36px 33px !important;
-  border-left: 2px solid var(--border) !important;
+/* Experience timeline items */
+.outline-3.timeline-item {
+  position: relative;
+  padding: 0 0 36px 33px;
+  border-left: 2px solid var(--border);
 }
 
-#outline-container-experience .outline-3::before {
-  content: "" !important;
-  position: absolute !important;
-  top: 9px !important;
-  left: -6px !important;
-  width: 11px !important;
-  height: 11px !important;
-  border-radius: 50% !important;
-  background: var(--green) !important;
-  box-shadow: 0 0 0 4px var(--bg) !important;
-  z-index: 1 !important;
-  display: block !important;
+.outline-3.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 4px var(--bg);
+  z-index: 1;
 }
 
-#outline-container-experience .outline-3:last-child {
+.outline-3.timeline-item:last-child {
   padding-bottom: 0;
   border-left-color: transparent;
 }
 
-#outline-container-experience .outline-3 h3 {
+.outline-3.timeline-item h3 {
   margin: 0 0 8px;
 }
 
