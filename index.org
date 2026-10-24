@@ -7,10 +7,10 @@
 #+HTML_HEAD: <link rel="stylesheet" href="style.css?v=15">
 
 #+begin_export html
-<p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
+<p class="eyebrow">ENGINEERING MANAGER · RECOVERING FOUNDER (TECHSTARS AUTUMN '24)</p>
 #+end_export
 
-A little about me.
+Engineer by trade. Currently responsible for other people's pull requests, with Claude quietly making the whole thing a bit weird.
 
 Based in Munich, Germany.
 
