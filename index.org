@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=14">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=15">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
