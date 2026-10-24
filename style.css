@@ -168,9 +168,13 @@ a:focus-visible {
   font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
-.timeline-meta span:first-child {
+.timeline-meta a {
   color: var(--text);
   font-weight: 500;
+}
+
+.timeline-meta a:hover {
+  color: var(--purple);
 }
 
 .timeline-item:last-child {
