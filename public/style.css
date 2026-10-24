@@ -159,25 +159,28 @@ a:focus-visible {
 
 /* timeline-meta styling */
 .timeline-meta {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
   gap: 0.25rem;
   color: var(--muted);
   font-size: 0.8rem;
   margin: 0 0 0.75rem;
   font-family: "JetBrains Mono", "Fira Code", monospace;
-  align-items: center;
 }
 
-.timeline-meta a {
+.timeline-company {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.timeline-company a {
   color: var(--purple) !important;
   text-decoration: none;
   text-underline-offset: 4px;
-  display: inline-flex;
-  align-items: center;
 }
 
-.timeline-meta a:hover {
+.timeline-company a:hover {
   color: #e0a8f0 !important;
   text-decoration: underline;
 }
@@ -186,12 +189,15 @@ a:focus-visible {
   opacity: 1 !important;
   color: var(--muted) !important;
   font-size: 1em;
-  margin-left: 2px;
   display: inline !important;
 }
 
-.timeline-meta a:hover .link-arrow {
+.timeline-company a:hover .link-arrow {
   color: var(--purple) !important;
+}
+
+.timeline-date {
+  color: var(--muted);
 }
 
 .timeline-item:last-child {
