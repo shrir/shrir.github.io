@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=3">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=4">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24)</p>
@@ -50,11 +50,7 @@ Building stuff
 
 #+begin_export html
 <footer class="site-footer">
-  <span>org-mode</span>
-  <span id="last-modified"></span>
+  Built with Emacs Org mode
 </footer>
-<script>
-  document.getElementById('last-modified').textContent = document.lastModified;
-</script>
 #+end_export
 
