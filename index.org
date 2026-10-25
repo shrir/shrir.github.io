@@ -45,10 +45,12 @@ Shipping mobile apps, wrangling hardware integrations, and keeping the engineeri
 :END:
 
 #+begin_export html
-<div class="timeline-meta"><span class="timeline-company"><a href="https://chapter.show" target="_blank" rel="noopener noreferrer">Chapter</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Sep 2023 — Apr 2025</span></div>
+<div class="timeline-meta"><span class="timeline-company"><a href="https://chapter.show" target="_blank" rel="noopener noreferrer">Chapter (Techstars 24)</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Sep 2023 — Apr 2025</span></div>
 #+end_export
 
-Built an open-source GTM tool for dev tool companies, starting with a spreadsheet someone was already willing to pay for. Grew it into a SaaS product with paying customers, including YC-backed startups in SF, reaching 4-figure MRR within six months.
+#+begin_export html
+<p>Built <a href="https://github.com/chapter-gtm/chapter" target="_blank" rel="noopener noreferrer">an open-source GTM tool<span class="link-arrow">↗</span></a> for dev tool companies, starting with a spreadsheet someone was already willing to pay for. Grew it into a SaaS product with paying customers, including YC-backed startups in SF, reaching 4-figure MRR within six months.</p>
+#+end_export
 
 ** CTO
 :PROPERTIES:
@@ -129,7 +131,7 @@ Worked on a real-time risk monitoring system that used MPI (Message Passing Inte
 
 * Education
 
-** MSc. Computer Science
+** MSc Computer Science
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: timeline-item
 :END:
