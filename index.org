@@ -4,52 +4,139 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=27">
 
-* Shrirang Bhate
 #+begin_export html
-<p class="eyebrow">ENGINEERING MANAGER · EX-FOUNDER (TECHSTARS AUTUMN '24) · MUNICH, GERMANY</p>
+<p class="eyebrow">ENGINEERING MANAGER · RECOVERING FOUNDER (TECHSTARS 24)</p>
 #+end_export
 
-A little about me.
+Somewhere between code and people. Currently responsible for other people's pull requests, with Claude quietly making the whole thing a bit weird.
 
-[[https://github.com/shrir][GitHub]] · [[Fhttp://www.linkedin.com/in/shrirang-bhate][LinkedIn]] · [[mailto:name@mydomain.com][Email]]
+#+begin_export html
+<p class="location">Based in Munich, Germany.</p>
+#+end_export
+
+#+begin_export html
+<p class="social-links">
+  <a href="mailto:name@mydomain.com">Email <span class="link-arrow">↗</span></a>
+  ·
+  <a href="https://github.com/shrir" target="_blank" rel="noopener noreferrer">GitHub <span class="link-arrow">↗</span></a>
+  ·
+  <a href="http://www.linkedin.com/in/shrirang-bhate" target="_blank" rel="noopener noreferrer">LinkedIn <span class="link-arrow">↗</span></a>
+</p>
+#+end_export
 
 * Experience
 
 ** Engineering Manager
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
 #+begin_export html
-<p class="timeline-meta"><span>Qwello</span><span>May 2025 — Present</span></p>
+<div class="timeline-meta"><span class="timeline-company"><a href="https://qwello.eu" target="_blank" rel="noopener noreferrer">Qwello</a> <span class="link-arrow">↗</span></span><span class="timeline-date">May 2025 — Present</span></div>
 #+end_export
 
-Building stuff
+Shipping mobile apps, wrangling hardware integrations, and keeping the engineering teams moving forward. Just with more meetings and organisational stuff in between.
 
 ** Co-founder and CTO
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
 #+begin_export html
-<p class="timeline-meta"><span>Chapter</span><span>Jul 2023 — Apr 2025</span></p>
+<div class="timeline-meta"><span class="timeline-company"><a href="https://chapter.show" target="_blank" rel="noopener noreferrer">Chapter</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Sep 2023 — Apr 2025</span></div>
 #+end_export
 
-Building stuff
+Built an open-source GTM tool for dev tool companies, starting with a spreadsheet someone was already willing to pay for. Grew it into a SaaS product with paying customers, including YC-backed startups in SF, reaching 4-figure MRR within six months.
 
-** Computer Science
+** CTO
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
 #+begin_export html
-<p class="timeline-meta"><span>University of Mumbai</span><span>2003 — 2005</span></p>
+<div class="timeline-meta"><span class="timeline-company"><a href="https://doctorflix.de" target="_blank" rel="noopener noreferrer">Doctorflix</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Nov 2022 — Aug 2023</span></div>
 #+end_export
 
-Studied computer science, and other stuff.
+Built product analytics that helped drive 15% week-over-week user growth. Helped raise a $2.3M seed round, pitching investors and owning technical due diligence.
 
-* Selected projects
+** Senior Engineering Manager
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
 
-** [[https://github.com/][Open-source projects]]
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://ir.liveperson.com/news-releases/news-release-details/liveperson-acquires-e-bot7-make-self-serve-quick-launch/" target="_blank" rel="noopener noreferrer">e-bot7 (Now Liveperson Nasdaq: LPSN)</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Oct 2021 — Sep 2022</span></div>
+#+end_export
 
-A collection of experiments, tools, and projects built to solve
-interesting problems.
+Led two teams of 14 people, building one from scratch and scaling integrations at a conversational AI startup. Helped drive the adoption of Kubernetes, GitOps, and DORA metrics.
 
-* Contact
+** Tech Lead Engineer
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
 
-I'm always happy to hear from people building interesting things.
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://www.axiros.com/" target="_blank" rel="noopener noreferrer">Axiros</a> <span class="link-arrow">↗</span></span><span class="timeline-date">May 2015 — Apr 2021</span></div>
+#+end_export
 
-[[mailto:name@mydomain.com][name@mydomain.com]]
+Built an IoT cloud platform for device management and third-party integrations, eventually scaling it to 15M devices through a platform-wide rearchitecture. Also implemented parts of the BSI Smart Meter Gateway specification with TUM and Fraunhofer ESK.
+
+** Software Engineer
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://www.cuculus.com/" target="_blank" rel="noopener noreferrer">Cuculus</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Nov 2012 — May 2015</span></div>
+#+end_export
+
+Built services to ingest and process smart meter data using SML and DLMS, getting my first taste of the energy industry.
+
+** Tech Lead
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://en.wikipedia.org/wiki/2Wire" target="_blank" rel="noopener noreferrer">2Wire (now CommScope Nasdaq: COMM)</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Apr 2010 — Oct 2012</span></div>
+#+end_export
+
+Led a team building firmware for millions of home gateways used by customers like AT&T. Worked hands-on with WLAN drivers for Broadcom and Lantiq chipsets, and customised open-source networking services.
+
+** Software Engineer
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://sep.securitycloud.symantec.com/v2/landing" target="_blank" rel="noopener noreferrer">Symantec (now Broadcomm Nasdaq: AVGO)</a> <span class="link-arrow">↗</span></span><span class="timeline-date">Jan 2007 — Nov 2009</span></div>
+#+end_export
+
+Built Linux data collection modules for Symantec's compliance tools, covering standards like NSA and COBIT. Monitored CVEs and built detection signatures for emerging vulnerabilities.
+
+** Software Engineer
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="https://www.nseindia.com/" target="_blank" rel="noopener noreferrer">National Stock Exchange of India</a> <span class="link-arrow">↗</span></span><span class="timeline-date">May 2005 — Dec 2006</span></div>
+#+end_export
+
+Worked on a real-time risk monitoring system that used MPI (Message Passing Interface) to calculate trade-level risk in parallel and check trades against traders' available collateral.
+
+* Education
+
+** MSc. Computer Science
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: timeline-item
+:END:
+
+#+begin_export html
+<div class="timeline-meta"><span class="timeline-company"><a href="http://mu.ac.in/" target="_blank" rel="noopener noreferrer">University of Mumbai</a> <span class="link-arrow">↗</span></span><span class="timeline-date">2023 — 2005</span></div>
+#+end_export
 
 #+begin_export html
 <footer class="site-footer">
