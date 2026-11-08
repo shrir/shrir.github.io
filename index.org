@@ -4,7 +4,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 #+HTML_HEAD: <meta name="theme-color" content="#282c34">
 #+HTML_HEAD: <meta name="description" content="Personal website of Shrirang Bhate">
-#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=27">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css?v=37">
 
 #+begin_export html
 <p class="eyebrow">ENGINEERING MANAGER · RECOVERING FOUNDER (TECHSTARS 24)</p>
@@ -18,12 +18,48 @@ Somewhere between code and people. Currently responsible for other people's pull
 
 #+begin_export html
 <p class="social-links">
-  <a href="mailto:name@mydomain.com">Email <span class="link-arrow">↗</span></a>
+  <button class="contact-btn" onclick="openModal()">Make contact <span class="link-arrow">↗</span></button>
   ·
   <a href="https://github.com/shrir" target="_blank" rel="noopener noreferrer">GitHub <span class="link-arrow">↗</span></a>
   ·
   <a href="http://www.linkedin.com/in/shrirang-bhate" target="_blank" rel="noopener noreferrer">LinkedIn <span class="link-arrow">↗</span></a>
 </p>
+
+<!-- Contact Modal -->
+<div id="contact-modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <h3 class="modal-title">Make contact</h3>
+    <iframe src="https://dash.palform.app/fill/org_0S5T9DX6EJ25V/form_0S5TA1T57JWK8?f=fat_0S5TBRRZ7BFXX#ak=64DF9F6B1BD0D40FAD9E7C96D021E4B430BF956A55FF45446DB238B9A37FB2DD" height="600px" width="100%" frameborder="0"></iframe>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('contact-modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('contact-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+// Close on outside click
+window.onclick = function(event) {
+  const modal = document.getElementById('contact-modal');
+  if (event.target === modal) {
+    closeModal();
+  }
+}
+
+// Close on Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeModal();
+  }
+});
+</script>
 #+end_export
 
 * Experience
