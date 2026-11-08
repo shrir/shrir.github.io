@@ -18,5 +18,3 @@ Push to `main` branch - GitHub Actions handles deployment automatically.
 
 - **Editor**: Emacs (Org mode)
 - **Export**: `ox-html` (Org to HTML)
-- **Hosting**: GitHub Pages
-- **Style**: Doom Emacs aesthetic
